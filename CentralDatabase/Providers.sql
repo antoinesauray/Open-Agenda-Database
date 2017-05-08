@@ -1,0 +1,16 @@
+﻿CREATE TABLE [dbo].[Providers]
+(
+    [Id] INT IDENTITY(1,1) PRIMARY KEY,
+	[Name] NVARCHAR(20) NOT NULL, 
+    [Image] NVARCHAR(MAX) NULL, 
+    [PrimaryColor] NVARCHAR(7) NULL DEFAULT '#FFFFFF', 
+    [AccentColor] NVARCHAR(7) NOT NULL DEFAULT '#FFFFFF', 
+    [Host] NVARCHAR(50) NOT NULL,
+	[Port] INT DEFAULT 1433,
+    [Schema] NVARCHAR(20) NOT NULL DEFAULT 'dbo', 
+    [Database] NVARCHAR(20) NOT NULL,
+	[UserName] VARCHAR(50) NOT NULL,
+	[EncryptedPassword] VARBINARY(128),
+    [CreatedAt] DATETIME NOT NULL DEFAULT GETDATE(), 
+    [UpdatedAt] DATETIME NULL
+);

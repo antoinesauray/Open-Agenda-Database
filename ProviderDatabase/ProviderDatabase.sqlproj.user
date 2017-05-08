@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <StartupScript>(Blank)</StartupScript>
+    <StartAction>StartNone</StartAction>
+    <TargetConnectionString>Data Source=DESKTOP-3VC8UL8\SQLEXPRESS;Initial Catalog=AgendaProviderDatabase;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
+    <SqlCmdVar__3>10</SqlCmdVar__3>
+    <SqlCmdVar__4>10</SqlCmdVar__4>
+    <SqlCmdVar__2>10</SqlCmdVar__2>
+    <CreateNewDatabase>False</CreateNewDatabase>
+    <SqlCmdVar__5>provider</SqlCmdVar__5>
+    <SqlCmdVar__6>10</SqlCmdVar__6>
+  </PropertyGroup>
+</Project>

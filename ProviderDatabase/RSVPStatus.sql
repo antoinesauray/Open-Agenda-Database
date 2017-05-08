@@ -1,0 +1,4 @@
+﻿CREATE TABLE [RSVPStatus] 
+(
+	[Label] VARCHAR(15) PRIMARY KEY
+);

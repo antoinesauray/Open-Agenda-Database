@@ -1,0 +1,5 @@
+﻿CREATE TABLE [AccessLevels]
+(
+	Id TINYINT PRIMARY KEY,
+	[Label] VARCHAR(20)
+);
