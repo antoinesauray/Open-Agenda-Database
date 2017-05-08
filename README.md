@@ -1,5 +1,5 @@
 # Open Agenda Database
-Open-Agenda is a Software to manage big quantities of agendas  
+Open-Agenda is a Software to manage big quantities of collaborative agendas  
 The code is made for **SQL Server** (tested on Microsoft Azure)  
 [Link to API](http://github.com)  
 [Link to Provider Database (not necessary)](http://github.com)  
